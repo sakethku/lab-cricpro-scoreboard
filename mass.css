@@ -1,0 +1,55 @@
+/* Type your code here */
+.image{
+    background-image: url("assets/background-image1.png");
+    
+}
+#cricpro{
+    padding: 10px;
+    margin-left: 1000px;
+    border: 10px;
+}
+#icc{
+    font-size: 50px;
+    font-style: normal ;
+    font-weight:bold ;
+}
+#text{
+    margin-left: 30px;
+    font-size:30px;
+    font-weight: bold;
+    color:grey;
+}
+.style{
+    width:900px;
+    background-color:white;
+    font-size:medium;
+    border-collapse: collapse;
+}
+.style th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:left;
+    background-color: red;
+    color:white;
+    font-size: 20px;
+}
+.style td{
+    padding:10px;
+}
+.style tr:hover {background-color: blueviolet;}
+.style tr:nth-child(even){background-color: aqua;}
+
+.footer{
+    display:flex;
+    flex-direction:row;
+    align-content:flex-end;
+    position:relative;
+    top:60px;
+    margin-left:50px;
+    font-size:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+
+/* change the font family and spacing as per your project font */
